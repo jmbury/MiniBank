@@ -45,4 +45,13 @@ public class Account {
         System.out.println("ID: " + accountNo + " Imie: " + accountName + " Nazwisko: "+ accountSurname + " Stan konta: " + balance);
 
     }
+    public boolean search(int accountNo) {
+        if (this.accountNo == accountNo){
+            return true;
+
+        }
+        return false;
+
+    }
+
 }
